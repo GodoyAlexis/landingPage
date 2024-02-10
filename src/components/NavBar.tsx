@@ -2,7 +2,7 @@ function NavBar () {
   return (
     <div>
       <div className="absolute inset-0 bg-black bg-opacity-80"></div>
-      <div className="absolute flex flex-wrap justify-around content-center w-full h-28">
+      <div className="relative flex flex-wrap justify-around content-center w-full h-28">
         <div className="h-[64px] ml-6">
           <div>
             <p className="text-[36px]"> &lt;Alexis Godoy/&gt; </p>
