@@ -1,16 +1,18 @@
-import NavBar from './NavBar'
+import NavBar from "./NavBar";
 
-function MainContainer () {
+function MainContainer() {
   return (
-    <div className='h-dvh bg-[url("../public/coding.jpg")] bg-center bg-cover'>
-      <NavBar />
-      <div className="relative flex flex-col justify-center">
-        <h1>Hi! I'm</h1>
-        <h2>Alexis Godoy</h2>
-        <h2>Frontend Developer</h2>
+    <div className='h-dvh bg-[url("../public/dark.jpg")] bg-center bg-cover flex-wrap justify-center'>
+      <div className="w-full h-28 flex justify-center">
+        <NavBar />
+      </div>
+      <div className="flex flex-wrap justify-center m-16">
+        <div className="w-40">
+          <div className="w-32 h-32 bg-cover bg-center bg-[url('../public/ale.jpg')] rounded-full"></div>
+        </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default MainContainer
+export default MainContainer;
